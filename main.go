@@ -78,8 +78,7 @@ func callbackHandler(w http.ResponseWriter, req *http.Request) {
 			case webhook.TextMessageContent:
 				usermessage := message.Text
 				// Send notification via Line Notify
-				notifyMessage := fmt.Sprintf("New user message received: %s", usermessage)
-				if err := lineNotifyMessage(notifyToken, notifyMessage); err != nil {
+				if err := lineNotifyMessage(notifyToken, usermessage); err != nil {
 					log.Printf("Failed to send Line Notify: %v\n", err)
 				} else {
 					log.Println("Sent Line Notify.")
