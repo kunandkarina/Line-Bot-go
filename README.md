@@ -14,7 +14,6 @@
    - **Channel Secret**
    - **Channel Access Token**
 
-> 將上述憑證資訊寫入程式碼：
 ```bash
 CHANNEL_SECRET="your_channel_secret"
 CHANNEL_ACCESS_TOKEN="your_channel_access_token"
@@ -28,7 +27,6 @@ CHANNEL_ACCESS_TOKEN="your_channel_access_token"
    ngrok http 3000
    ```
 2. Ngrok 啟動後會提供一個 HTTPS 網址，格式如下：
-> 執行程式碼
 ```bash
 https://<random-string>.ngrok.io
 ```
@@ -38,7 +36,6 @@ https://<random-string>.ngrok.io
 1. 前往 [Line Developers Console](https://developers.line.biz/console/)。
 2. 在您的 **Channel** 中進入 **Messaging API** 設定頁面。
 3. 將 **Webhook URL** 設定為：
->
 ```bash
 https://<random-string>.ngrok.io/callback
 ```
