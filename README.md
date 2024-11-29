@@ -14,10 +14,10 @@
    - **Channel Secret**
    - **Channel Access Token**
 
-```bash
-CHANNEL_SECRET="your_channel_secret"
-CHANNEL_ACCESS_TOKEN="your_channel_access_token"
-```
+   ```bash
+   CHANNEL_SECRET="your_channel_secret"
+   CHANNEL_ACCESS_TOKEN="your_channel_access_token"
+   ```
 
 ### 2. 設定 Ngrok
 
