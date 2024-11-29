@@ -15,8 +15,8 @@
    - **Channel Access Token**
 
    ```bash
-   CHANNEL_SECRET="your_channel_secret"
-   CHANNEL_ACCESS_TOKEN="your_channel_access_token"
+   ChannelSecret="YOUR_CHANNEL_SECRET"
+   ChannelAccessToken=YOUR_CHANNEL_ACCESS_TOKEN
    ```
 
 ### 2. 設定 Ngrok
@@ -49,7 +49,7 @@
    - **個人**：將通知發送至您的個人 Line 帳號。
    - **群組**：將通知發送至某個群組（需事先邀請 Line Notify 加入該群組）。
 4. 為 Token 命名，選擇要授予的權限，然後點擊 **生成**。
-5. 取得生成的 **Notify Token**，並將其用於專案中，例如設定為環境變數：
+5. 取得生成的 **Notify Token**，並將其用於專案中:
    ```bash
    LINENotifyToken="YOUR_LINE_NOTIFY_TOKEN"
    ```
