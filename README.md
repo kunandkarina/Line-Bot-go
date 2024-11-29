@@ -1,6 +1,7 @@
 # Line Bot 與 Line Notify 整合專案使用說明
 
 ## 簡介
+
 本專案透過 Go 語言整合 Line Bot 和 Line Notify，實現訊息互動與通知功能。
 ---
 
