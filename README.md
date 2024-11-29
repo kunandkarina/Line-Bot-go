@@ -1,9 +1,7 @@
-# 使用說明：Line Bot 與 Line Notify 整合專案
+# Line Bot 與 Line Notify 整合專案使用說明
 
 ## 簡介
-
-本專案旨在整合 Line Bot 和 Line Notify，透過 Go 語言實現訊息互動與通知功能。以下步驟將引導您完成環境設置與專案執行。
-
+本專案透過 Go 語言整合 Line Bot 和 Line Notify，實現訊息互動與通知功能。
 ---
 
 ## 設定步驟
