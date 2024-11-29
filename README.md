@@ -27,18 +27,18 @@ CHANNEL_ACCESS_TOKEN="your_channel_access_token"
    ngrok http 3000
    ```
 2. Ngrok 啟動後會提供一個 HTTPS 網址，格式如下：
-```bash
-https://<random-string>.ngrok.io
-```
+   ```bash
+   https://<random-string>.ngrok.io
+   ```
 
 ### 3. 設定 Webhook URL
 
 1. 前往 [Line Developers Console](https://developers.line.biz/console/)。
 2. 在您的 **Channel** 中進入 **Messaging API** 設定頁面。
 3. 將 **Webhook URL** 設定為：
-```bash
-https://<random-string>.ngrok.io/callback
-```
+   ```bash
+   https://<random-string>.ngrok.io/callback
+   ```
 4. 儲存設定後，點擊 **Verify** 以測試 Webhook 連線是否成功。
 
 ###  4. 註冊 Line Notify Token
@@ -52,3 +52,4 @@ https://<random-string>.ngrok.io/callback
 5. 取得生成的 **Notify Token**，並將其用於專案中，例如設定為環境變數：
    ```bash
    LINENotifyToken="YOUR_LINE_NOTIFY_TOKEN"
+   ```
