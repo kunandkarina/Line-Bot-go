@@ -16,7 +16,7 @@
 
    ```bash
    ChannelSecret="YOUR_CHANNEL_SECRET"
-   ChannelAccessToken=YOUR_CHANNEL_ACCESS_TOKEN
+   ChannelAccessToken="YOUR_CHANNEL_ACCESS_TOKEN"
    ```
 
 ### 2. 設定 Ngrok
