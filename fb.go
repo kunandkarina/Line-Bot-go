@@ -29,8 +29,8 @@ var (
 )
 
 func parseArgs() (string, string, string, int) {
-	account := flag.String("account", "llm2468@yahoo.com.tw", "Facebook account")
-	password := flag.String("password", "llm50457", "Facebook password")
+	account := flag.String("account", "", "Facebook account")
+	password := flag.String("password", "", "Facebook password")
 	groupID := flag.String("group", "817620721658179", "Facebook group ID")
 	postLimit := flag.Int("limit", 10, "Number of posts to scan")
 	flag.Parse()
